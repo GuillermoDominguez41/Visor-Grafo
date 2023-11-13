@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec623cde-daea-4c53-beea-9cc2b6b11c93" name="Changes" comment="Actualizacion del .gitignore" />
+    <list default="true" id="ec623cde-daea-4c53-beea-9cc2b6b11c93" name="Changes" comment="Generacion estructura del proyecto.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +109,23 @@
       <option name="project" value="LOCAL" />
       <updated>1699884648461</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Actualizacion del .gitignore">
+      <option name="closed" value="true" />
+      <created>1699884688696</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699884688696</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Generacion estructura del proyecto.">
+      <option name="closed" value="true" />
+      <created>1699884873936</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699884873936</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +170,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Inicial - Estructura proyecto." />
     <MESSAGE value="Actualizacion del .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion del .gitignore" />
+    <MESSAGE value="Generacion estructura del proyecto." />
+    <option name="LAST_COMMIT_MESSAGE" value="Generacion estructura del proyecto." />
   </component>
 </project>
