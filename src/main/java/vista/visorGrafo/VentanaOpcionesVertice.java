@@ -1,4 +1,4 @@
-package main.java.vista.visorGrafo;
+package vista.visorGrafo;
 
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
@@ -12,9 +12,8 @@ import javax.swing.SwingConstants;
 import java.awt.Font;
 import java.awt.GridLayout;
 
-import main.java.coordinador.Coordinador;
-import main.java.modelo.grafo.Vertice;
-import main.resources.VARIABLES;
+import coordinador.Coordinador;
+import modelo.grafo.Vertice;
 
 import javax.swing.border.LineBorder;
 import java.awt.Color;
@@ -47,7 +46,8 @@ public class VentanaOpcionesVertice extends JFrame {
 		panelPrincipal.setLayout(null);
 		getContentPane().add(panelPrincipal);
 		
-		JButton btn_Cerrar = new JButton(new ImageIcon(VARIABLES.iconoCerrar));
+/*		JButton btn_Cerrar = new JButton(new ImageIcon(VARIABLES.iconoCerrar));*/
+		JButton btn_Cerrar = new JButton();
 		btn_Cerrar.setToolTipText("Cerrar ventana");
 		btn_Cerrar.setBackground(null);
 		btn_Cerrar.setBorder(null);

@@ -1,11 +1,11 @@
-package main.java.modelo;
+package modelo;
 
 import java.util.ArrayList;
 import java.util.Set;
 
-import main.java.coordinador.Coordinador;
-import main.java.modelo.grafo.Grafo;
-import main.java.modelo.grafo.Vertice;
+import coordinador.Coordinador;
+import modelo.grafo.Grafo;
+import modelo.grafo.Vertice;
 
 public class Logica {
 

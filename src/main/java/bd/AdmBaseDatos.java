@@ -1,4 +1,4 @@
-package main.java.bd;
+package bd;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -12,13 +12,12 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 
-import main.java.modelo.grafo.Vertice;
-import main.resources.VARIABLES;
+import modelo.grafo.Vertice;
 
 public class AdmBaseDatos {
 
     private static final Logger logger = Logger.getLogger(AdmBaseDatos.class.getName());
-    private final String bd_Vertices = VARIABLES.rutaBdVertice;
+    private final String bd_Vertices = String.valueOf(AdmBaseDatos.class.getClassLoader().getResource("vertice.json"));
 
     public ArrayList<Vertice> obtenerVertices() {
 

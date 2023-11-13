@@ -1,6 +1,7 @@
-package main.java.vista;
+package vista;
 
 import java.awt.Color;
+import java.util.Objects;
 import java.util.Set;
 
 import javax.swing.ImageIcon;
@@ -13,9 +14,8 @@ import javax.swing.border.TitledBorder;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-import main.java.coordinador.Coordinador;
-import main.java.vista.visorGrafo.VisorGrafo;
-import main.resources.VARIABLES;
+import coordinador.Coordinador;
+import vista.visorGrafo.VisorGrafo;
 
 import java.awt.GridLayout;
 
@@ -37,7 +37,8 @@ public class VentanaPrincipal extends JFrame {
 
         setSize(1280, 720);
         setTitle("Conjunto Dominante Minimo");
-        setIconImage(new ImageIcon(VARIABLES.iconoApp).getImage());
+/*        setIconImage(new ImageIcon(Objects.requireNonNull(
+                VentanaPrincipal.class.getClassLoader().getResource("img/appIcon.png"))).getImage());*/
         setResizable(false);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -66,19 +67,22 @@ public class VentanaPrincipal extends JFrame {
         getContentPane().add(toolBar);
         toolBar.addSeparator();
 
-        JButton btn_GuardarCambios = new JButton(new ImageIcon(VARIABLES.iconoGuardarCambios));
+/*        JButton btn_GuardarCambios = new JButton(new ImageIcon(VARIABLES.iconoGuardarCambios));*/
+        JButton btn_GuardarCambios = new JButton();
         btn_GuardarCambios.setToolTipText("Guardar Cambios");
         btn_GuardarCambios.addActionListener((evento) -> coordinador.guardarVertices());
         toolBar.add(btn_GuardarCambios);
         toolBar.addSeparator();
 
-        JButton btn_ActualizarPantalla = new JButton(new ImageIcon(VARIABLES.iconoDeshacerCambios));
+/*        JButton btn_ActualizarPantalla = new JButton(new ImageIcon(VARIABLES.iconoDeshacerCambios));*/
+        JButton btn_ActualizarPantalla = new JButton();
         btn_ActualizarPantalla.setToolTipText("Actualizar Pantalla");
         btn_ActualizarPantalla.addActionListener((evento) -> actualizarVerticesDesdeBase());
         toolBar.add(btn_ActualizarPantalla);
         toolBar.addSeparator();
 
-        JButton btn_CDM = new JButton("Conjunto Dominante Minimo", new ImageIcon(VARIABLES.iconoConjuntoDominanteMinimo));
+/*        JButton btn_CDM = new JButton("Conjunto Dominante Minimo", new ImageIcon(VARIABLES.iconoConjuntoDominanteMinimo));*/
+        JButton btn_CDM = new JButton();
         btn_CDM.addActionListener((evento) -> {
             Set<Integer> CDM = coordinador.obtenerConjuntoDominanteMinimo();
             mostrarAviso("Conjunto Dominante Minimo: " + CDM.toString());

@@ -1,4 +1,4 @@
-package main.java.vista.visorGrafo;
+package vista.visorGrafo;
 
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -7,7 +7,7 @@ import java.awt.Graphics2D;
 
 import javax.swing.JComponent;
 
-import main.java.vista.VentanaPrincipal;
+import vista.VentanaPrincipal;
 
 public class FormaArista extends JComponent {
 	private final Color colorDeLinea;

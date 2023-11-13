@@ -1,4 +1,4 @@
-package main.java.modelo.grafo;
+package modelo.grafo;
 
 import java.util.ArrayList;
 import java.util.HashSet;

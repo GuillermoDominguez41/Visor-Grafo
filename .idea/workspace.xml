@@ -4,8 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec623cde-daea-4c53-beea-9cc2b6b11c93" name="Changes" comment="Generacion estructura del proyecto.">
+    <list default="true" id="ec623cde-daea-4c53-beea-9cc2b6b11c93" name="Changes" comment="Actualizacion de estructura del proyecto.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bd/AdmBaseDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bd/AdmBaseDatos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bd/vertice.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/vertice.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coordinador/Coordinador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coordinador/Coordinador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/Logica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/Logica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/grafo/ConjuntoDominanteMinimo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/grafo/ConjuntoDominanteMinimo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/grafo/Grafo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/grafo/Grafo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/grafo/Vertice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/grafo/Vertice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vista/VentanaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/VentanaPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vista/visorGrafo/FormaArista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/visorGrafo/FormaArista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vista/visorGrafo/FormaVertice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/visorGrafo/FormaVertice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vista/visorGrafo/VentanaOpcionesVertice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/visorGrafo/VentanaOpcionesVertice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vista/visorGrafo/VisorGrafo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/visorGrafo/VisorGrafo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/VARIABLES.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,14 +83,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Guillermo Dominguez\IdeaProjects\Visor-Grafo\src\main\resources" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -125,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699884873936</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Actualizacion de estructura del proyecto.">
+      <option name="closed" value="true" />
+      <created>1699884970567</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699884970568</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,6 +202,7 @@
     <MESSAGE value="Inicial - Estructura proyecto." />
     <MESSAGE value="Actualizacion del .gitignore" />
     <MESSAGE value="Generacion estructura del proyecto." />
-    <option name="LAST_COMMIT_MESSAGE" value="Generacion estructura del proyecto." />
+    <MESSAGE value="Actualizacion de estructura del proyecto." />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion de estructura del proyecto." />
   </component>
 </project>

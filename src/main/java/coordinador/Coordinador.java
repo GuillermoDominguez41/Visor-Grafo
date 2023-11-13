@@ -1,12 +1,12 @@
-package main.java.coordinador;
+package coordinador;
 
 import java.util.ArrayList;
 import java.util.Set;
 
-import main.java.bd.AdmBaseDatos;
-import main.java.modelo.Logica;
-import main.java.modelo.grafo.Vertice;
-import main.java.vista.VentanaPrincipal;
+import bd.AdmBaseDatos;
+import modelo.Logica;
+import modelo.grafo.Vertice;
+import vista.VentanaPrincipal;
 
 public class Coordinador {
 

@@ -1,4 +1,3 @@
-package main.java;
 
 import com.formdev.flatlaf.intellijthemes.FlatGradiantoDeepOceanIJTheme;
 import javax.swing.UIManager;
@@ -6,10 +5,10 @@ import javax.swing.UnsupportedLookAndFeelException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import main.java.bd.AdmBaseDatos;
-import main.java.coordinador.Coordinador;
-import main.java.modelo.Logica;
-import main.java.vista.VentanaPrincipal;
+import bd.AdmBaseDatos;
+import coordinador.Coordinador;
+import modelo.Logica;
+import vista.VentanaPrincipal;
 
 public class Principal {
 

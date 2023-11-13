@@ -1,4 +1,4 @@
-package main.java.vista.visorGrafo;
+package vista.visorGrafo;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -14,7 +14,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 
-import main.java.coordinador.Coordinador;
+import coordinador.Coordinador;
 
 public class FormaVertice extends JPanel implements MouseMotionListener {
 	

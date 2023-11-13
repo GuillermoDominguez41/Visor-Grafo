@@ -1,4 +1,4 @@
-package main.java.vista.visorGrafo;
+package vista.visorGrafo;
 
 import java.awt.Color;
 import java.awt.event.MouseAdapter;
@@ -11,8 +11,8 @@ import java.util.Set;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
-import main.java.coordinador.Coordinador;
-import main.java.modelo.grafo.Vertice;
+import coordinador.Coordinador;
+import modelo.grafo.Vertice;
 
 public class VisorGrafo {
 
