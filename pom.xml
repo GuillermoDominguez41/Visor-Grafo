@@ -21,12 +21,6 @@
         <artifactId>junit-platform-console-standalone</artifactId>
         <version>1.10.1</version>
     </dependency>
-    <!-- https://central.sonatype.com/artifact/org.mockito/mockito-core -->
-    <dependency>
-        <groupId>org.mockito</groupId>
-        <artifactId>mockito-core</artifactId>
-        <version>5.7.0</version>
-    </dependency>
     <!-- https://central.sonatype.com/artifact/com.google.code.gson/gson -->
     <dependency>
       <groupId>com.google.code.gson</groupId>

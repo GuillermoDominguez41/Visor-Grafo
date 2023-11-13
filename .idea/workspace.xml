@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec623cde-daea-4c53-beea-9cc2b6b11c93" name="Changes" comment="Actualizacion de estructura del proyecto.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/modelo/LogicaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/modelo/grafo/ConjuntoDominanteMinimoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/modelo/grafo/GrafoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/modelo/grafo/VerticeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bd/AdmBaseDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bd/AdmBaseDatos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/grafo/Grafo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/grafo/Grafo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/grafo/Vertice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/grafo/Vertice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vista/VentanaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/VentanaPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vista/visorGrafo/VentanaOpcionesVertice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/visorGrafo/VentanaOpcionesVertice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/deshacerCambios.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/actualizar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/vertice.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/vertice.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699889091193</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Actualizacion de estructura del proyecto.">
+      <option name="closed" value="true" />
+      <created>1699918638433</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1699918638433</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
