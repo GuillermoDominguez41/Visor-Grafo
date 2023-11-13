@@ -15,11 +15,17 @@
   </properties>
 
   <dependencies>
+    <!-- https://central.sonatype.com/artifact/org.junit.platform/junit-platform-console-standalone -->
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
+        <groupId>org.junit.platform</groupId>
+        <artifactId>junit-platform-console-standalone</artifactId>
+        <version>1.10.1</version>
+    </dependency>
+    <!-- https://central.sonatype.com/artifact/org.mockito/mockito-core -->
+    <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-core</artifactId>
+        <version>5.7.0</version>
     </dependency>
     <!-- https://central.sonatype.com/artifact/com.google.code.gson/gson -->
     <dependency>

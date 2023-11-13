@@ -16,7 +16,7 @@ public class Grafo {
     }
 
     public void agregarVertice(Vertice nuevoVertice) {
-        vertices.put(nuevoVertice.id(), nuevoVertice);
+        if (nuevoVertice != null) vertices.put(nuevoVertice.id(), nuevoVertice);
     }
 
     public int generarID() {

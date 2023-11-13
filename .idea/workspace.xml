@@ -5,27 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec623cde-daea-4c53-beea-9cc2b6b11c93" name="Changes" comment="Actualizacion de estructura del proyecto.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/modelo/LogicaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/modelo/grafo/ConjuntoDominanteMinimoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/modelo/grafo/GrafoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/modelo/grafo/VerticeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bd/AdmBaseDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bd/AdmBaseDatos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bd/vertice.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/vertice.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coordinador/Coordinador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coordinador/Coordinador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/Logica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/Logica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/grafo/ConjuntoDominanteMinimo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/grafo/ConjuntoDominanteMinimo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/modelo/grafo/Grafo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/grafo/Grafo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/modelo/grafo/Vertice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/grafo/Vertice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/vista/VentanaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/VentanaPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vista/visorGrafo/FormaArista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/visorGrafo/FormaArista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vista/visorGrafo/FormaVertice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/visorGrafo/FormaVertice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/vista/visorGrafo/VentanaOpcionesVertice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/visorGrafo/VentanaOpcionesVertice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vista/visorGrafo/VisorGrafo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/visorGrafo/VisorGrafo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/VARIABLES.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/deshacerCambios.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/actualizar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/vertice.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/vertice.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Pull.Settings">
     <option name="OPTIONS">
@@ -72,6 +77,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -88,16 +96,71 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Guillermo Dominguez/IdeaProjects/Visor-Grafo/src/test",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Guillermo Dominguez\IdeaProjects\Visor-Grafo\src\main\resources\data" />
       <recent name="C:\Users\Guillermo Dominguez\IdeaProjects\Visor-Grafo\src\main\resources" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="modelo.grafo" />
+      <recent name="modelo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Test in Visor-Grafo">
+    <configuration name="Principal" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Principal" />
+      <module name="Visor-Grafo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test in Visor-Grafo" type="JUnit" factoryName="JUnit">
+      <module name="Visor-Grafo" />
+      <option name="PACKAGE_NAME" value="modelo.grafo" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test" />
+      <dir value="$PROJECT_DIR$/src/test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerticeTest.getPosX" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Visor-Grafo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modelo.grafo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="modelo.grafo" />
+      <option name="MAIN_CLASS_NAME" value="modelo.grafo.VerticeTest" />
+      <option name="METHOD_NAME" value="getPosX" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Principal" />
+      <item itemvalue="JUnit.Test in Visor-Grafo" />
+      <item itemvalue="JUnit.VerticeTest.getPosX" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.VerticeTest.getPosX" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -156,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699884970568</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Actualizacion de estructura del proyecto.">
+      <option name="closed" value="true" />
+      <created>1699889091193</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699889091193</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

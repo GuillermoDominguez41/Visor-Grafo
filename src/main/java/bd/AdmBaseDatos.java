@@ -1,8 +1,6 @@
 package bd;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.FileWriter;
+import java.io.*;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.logging.Level;
@@ -17,22 +15,18 @@ import modelo.grafo.Vertice;
 public class AdmBaseDatos {
 
     private static final Logger logger = Logger.getLogger(AdmBaseDatos.class.getName());
-    private final String bd_Vertices = String.valueOf(AdmBaseDatos.class.getClassLoader().getResource("vertice.json"));
+    private final String bd_Vertices = String.valueOf(AdmBaseDatos.class.getClassLoader().getResource("data/vertice.json"));
 
     public ArrayList<Vertice> obtenerVertices() {
-
         ArrayList<Vertice> listaVertices = new ArrayList<>();
-        try {
-            BufferedReader bufferedReader = new BufferedReader(new FileReader(bd_Vertices));
-            Type tipoListaVertices = new TypeToken<ArrayList<Vertice>>() {}.getType();
+        String filePath = "data/vertice.json";
+        try (Reader reader = new InputStreamReader(getClass().getClassLoader().getResourceAsStream(filePath))) {
+                Type listType = new TypeToken<ArrayList<Vertice>>(){}.getType();
+                listaVertices = new Gson().fromJson(reader, listType);
 
-            listaVertices = new Gson().fromJson(bufferedReader, tipoListaVertices);
-
-            bufferedReader.close();
         } catch (Exception e) {
             logger.log(Level.SEVERE, "No se logro abrir archivo Json", e);
         }
-
         return listaVertices;
     }
 

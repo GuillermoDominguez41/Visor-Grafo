@@ -6,7 +6,6 @@ import java.util.Set;
 import com.google.gson.annotations.SerializedName;
 
 public class Vertice {
-
     @SerializedName("Id")
     private final int id;
     @SerializedName("Nombre")
