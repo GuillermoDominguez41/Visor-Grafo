@@ -3,20 +3,28 @@ package modelo.grafo;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.HashSet;
 import java.util.Set;
 
 import static org.junit.Assert.*;
 
 public class ConjuntoDominanteMinimoTest {
-    private Set<Integer> cdm;
+   private Grafo grafo;
+   private Vertice vertice;
     @Before
     public void configuracion() {
-        Grafo grafo = new Grafo();
-        cdm = grafo.obtenerConjuntoDominanteMinimo();
+        grafo = new Grafo();
+        vertice = new Vertice(1, 10, 20, "Vertice");
     }
 
     @Test
     public void grafoNoNulo() {
-        assertNull(cdm);
+        grafo.agregarVertice(vertice);
+        Set<Integer> conjuntoDominanteMinimo = grafo.obtenerConjuntoDominanteMinimo();
+
+        Set<Integer> conjuntoEsperado = new HashSet<>();
+        conjuntoEsperado.add(vertice.id());
+
+        assertEquals(conjuntoEsperado, conjuntoDominanteMinimo);
     }
 }
