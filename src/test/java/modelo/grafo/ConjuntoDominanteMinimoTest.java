@@ -18,7 +18,7 @@ public class ConjuntoDominanteMinimoTest {
     }
 
     @Test
-    public void grafoNoNulo() {
+    public void conjuntoEsperadoOK() {
         grafo.agregarVertice(vertice);
         Set<Integer> conjuntoDominanteMinimo = grafo.obtenerConjuntoDominanteMinimo();
 
