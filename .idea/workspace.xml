@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec623cde-daea-4c53-beea-9cc2b6b11c93" name="Changes" comment="Actualizacion de estructura del proyecto.">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="ec623cde-daea-4c53-beea-9cc2b6b11c93" name="Changes" comment="Se corrige test ConjuntoDominanteMinimo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,20 +78,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Guillermo Dominguez/IdeaProjects/Visor-Grafo/src/test",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Guillermo Dominguez/IdeaProjects/Visor-Grafo/src/test&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Guillermo Dominguez\IdeaProjects\Visor-Grafo\src\main\resources\data" />
@@ -124,32 +122,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerticeTest.getPosX" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Visor-Grafo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="modelo.grafo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="modelo.grafo" />
-      <option name="MAIN_CLASS_NAME" value="modelo.grafo.VerticeTest" />
-      <option name="METHOD_NAME" value="getPosX" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Principal" />
       <item itemvalue="JUnit.Test in Visor-Grafo" />
-      <item itemvalue="JUnit.VerticeTest.getPosX" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.VerticeTest.getPosX" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -224,7 +200,39 @@
       <option name="project" value="LOCAL" />
       <updated>1699918638433</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Se retiraron las dependencias de Mokito">
+      <option name="closed" value="true" />
+      <created>1699918707907</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1699918707907</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Se agrega ejemplo de uso de la app.">
+      <option name="closed" value="true" />
+      <created>1699963786893</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1699963786893</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Se corrige test ConjuntoDominanteMinimo">
+      <option name="closed" value="true" />
+      <created>1699964335457</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1699964335457</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Se corrige test ConjuntoDominanteMinimo">
+      <option name="closed" value="true" />
+      <created>1699964416113</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1699964416113</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,6 +279,9 @@
     <MESSAGE value="Actualizacion del .gitignore" />
     <MESSAGE value="Generacion estructura del proyecto." />
     <MESSAGE value="Actualizacion de estructura del proyecto." />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion de estructura del proyecto." />
+    <MESSAGE value="Se retiraron las dependencias de Mokito" />
+    <MESSAGE value="Se agrega ejemplo de uso de la app." />
+    <MESSAGE value="Se corrige test ConjuntoDominanteMinimo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se corrige test ConjuntoDominanteMinimo" />
   </component>
 </project>
