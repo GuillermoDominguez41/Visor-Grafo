@@ -1,0 +1,64 @@
+[
+  {
+    "Id": 1,
+    "Nombre": "Vertice 1",
+    "Vecinos": [
+      2,
+      5
+    ],
+    "Posicion X": 0,
+    "Posicion Y": 0
+  },
+  {
+    "Id": 2,
+    "Nombre": "Vertice 2",
+    "Vecinos": [
+      1,
+      3,
+      5
+    ],
+    "Posicion X": 0,
+    "Posicion Y": 0
+  },
+  {
+    "Id": 3,
+    "Nombre": "Vertice 3",
+    "Vecinos": [
+      2,
+      4
+    ],
+    "Posicion X": 0,
+    "Posicion Y": 0
+  },
+  {
+    "Id": 4,
+    "Nombre": "Vertice 4",
+    "Vecinos": [
+      3,
+      5,
+      6
+    ],
+    "Posicion X": 0,
+    "Posicion Y": 0
+  },
+  {
+    "Id": 5,
+    "Nombre": "Vertice 5",
+    "Vecinos": [
+      1,
+      2,
+      4
+    ],
+    "Posicion X": 0,
+    "Posicion Y": 0
+  },
+  {
+    "Id": 6,
+    "Nombre": "Vertice 6",
+    "Vecinos": [
+      4
+    ],
+    "Posicion X": 0,
+    "Posicion Y": 0
+  }
+]
